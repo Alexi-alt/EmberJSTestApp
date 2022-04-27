@@ -80,6 +80,7 @@
   "dependencies": {
     "@embroider/macros": "^1.6.0",
     "bower-endpoint-parser": "^0.2.2",
-    "ember-cli": "^4.3.0"
+    "ember-cli": "^4.3.0",
+    "heroku": "^7.60.1"
   }
 }
