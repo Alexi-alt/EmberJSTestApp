@@ -1,3 +1,4 @@
+/* eslint-env node */
 'use strict';
 
 module.exports = {
@@ -18,6 +19,8 @@ module.exports = {
   ],
   env: {
     browser: true,
+    node: true,
+    es6: true,
   },
   rules: {},
   overrides: [
