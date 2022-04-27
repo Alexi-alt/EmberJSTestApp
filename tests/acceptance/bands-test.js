@@ -15,7 +15,7 @@ module('Acceptance | bands', function (hooks) {
     this.server.create('band', { name: 'Radiohead' });
     this.server.create('band', { name: 'Long Distance Calling' });
     await visit('/');
-    assert.equal(getPageTitle(), 'Bands | Rock & Roll with Octane');
+    assert.strictEqual(getPageTitle(), 'Bands | Rock & Roll with Octane');
     assert
       .dom('[data-test-rr="band-link"]')
       .exists({ count: 2 }, 'All band links are rendered');
