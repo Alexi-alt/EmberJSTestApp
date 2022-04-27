@@ -68,17 +68,16 @@
     "tracked-built-ins": "^2.0.1",
     "webpack": "^5.65.0"
   },
-  "overrides": {
-    "@embroider/macros": "^1.0.0"
-  },
   "engines": {
-    "node": "12.* || 14.* || >= 16"
+    "node": "12.* || 14.* || >= 16",
+    "npm": "8.8.0"
   },
   "ember": {
     "edition": "octane"
   },
   "dependencies": {
     "@embroider/macros": "^1.6.0",
+    "@heroku-cli/plugin-buildpacks": "^7.60.0",
     "@heroku/buildpack-registry": "^1.0.1",
     "bower-endpoint-parser": "^0.2.2",
     "ember-cli": "^4.3.0",
